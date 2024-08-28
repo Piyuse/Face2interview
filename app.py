@@ -37,7 +37,7 @@ def input_pdf_setup(uploaded_file):
     else:
         raise FileNotFoundError("No file uploaded")
 
-st.set_page_config(page_title="ATS resume expert")
+st.set_page_config(page_title="PrepareU")
 st.header("Seminar QA helper")
 input_text = st.text_area("Interview description:", key="input")
 uploaded_file = st.file_uploader("Upload your resume (PDF)...", type=["pdf"])
